@@ -1,0 +1,30 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  border-bottom: 1px solid black;
+}
+
+a{
+  color: black;
+}
+
+.logo{
+}
+
+.title{
+  color: Aquamarine;
+  display: inline-block;
+  position: relative;
+  margin-left: 15px;
+  bottom: 21.5px;
+}
+nav{
+margin-top: 20px;
+}
+
+.navbar{
+  padding: 0px 20px;
+}
