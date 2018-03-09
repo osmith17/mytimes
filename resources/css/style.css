@@ -6,23 +6,52 @@ header{
   font-weight: bold;
   border-bottom: 1px solid black;
 }
+div{
+  border: 2px solid black;
+}
+
+.maincontent{
+  display: flex;
+  justify-content: space-between;
+
+}
+.columnone,.columntwo,.columnthree{
+  display: flex;
+  margin: 15px;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+}
+.columnone{
+  width: 630px;
+  height: 100%;
+}
+.columntwo{
+  width: 300px;
+  height: 100%;
+}
+.columnthree{
+  width: 240px;
+  height: 100%;
+}
 
 a{
   color: black;
 }
 
 .logo{
+  flex-grow: 5;
 }
 
 .title{
-  color: Aquamarine;
+  color: mediumaquamarine;
   display: inline-block;
   position: relative;
   margin-left: 15px;
   bottom: 21.5px;
 }
 nav{
-margin-top: 20px;
+  margin-top: 20px;
 }
 
 .navbar{
